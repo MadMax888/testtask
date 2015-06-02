@@ -1,0 +1,424 @@
+
+body input:focus:required:invalid, body textarea:focus:required:invalid {
+}
+body input:required:valid, body textarea:required:valid {
+}
+div, body, section, form, header, input, button {
+    box-sizing: border-box;
+}
+body {
+    background: none repeat scroll 0 0 #f5f5f5;
+    font-family: "RobotoMedium",sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 1024px;
+}
+.clear::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.b-header {
+}
+.b-header__logo {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 3px 3px rgba(168, 168, 168, 0.5);
+}
+.b-page-logo {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.b-test {
+    background: none repeat scroll 0 0 #f5f5f5;
+    height: auto;
+}
+.b-slide__block {
+    padding: 20px 40px 60px;
+}
+.b-doc, .b-links, .b-slab {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 2px 4px rgba(213, 213, 213, 1);
+    display: inline-block;
+    width: 300px;
+}
+.b-links .jspDrag{
+    background: none repeat scroll 0 0 #00B9E6;
+}
+.b-doc__head {
+    background: none repeat scroll 0 0 #db4437;
+    border-radius: 5px 5px 0 0;
+}
+.b-doc-logo {
+    background: url("../img/adobe_icon3.png") no-repeat scroll right center, url("../img/adobe_icon2.png") no-repeat scroll center center, url("../img/adobe_icon1.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 33px;
+    margin: 0 auto;
+    padding: 40px 0 62px;
+    width: 70px;
+}
+.b-doc-text {
+    color: #fff;
+    font-size: 18pt;
+    padding: 0 20px 20px;
+}
+.b-doc__list, .b-links__list {
+    height: 330px;
+    overflow-x: hidden;
+}
+.b-list {
+    list-style: outside none none;
+    padding: 0;
+}
+.b-list__item {
+}
+.b-list__btn {
+    background: url("../img/choose.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin: 10px;
+    vertical-align: top;
+    width: 16px;
+}
+.b-list__btn_active-r {
+    background: url("../img/check_doc.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.b-list__btn_active-bl {
+    background: url("../img/check_link.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.b-list__text {
+    color: #8b8b8b;
+    display: inline-block;
+}
+.nametext {
+    font-size: 11pt;
+}
+.abttext {
+    font-size: 10pt;
+    margin: 10px 0;
+}
+.b-doc__footer, .b-links__footer, .b-slab__footer {
+    border-top: 1px solid rgba(220, 220, 220, 0.6);
+}
+.add-all {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #db4437;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 14pt;
+    padding: 34px 20px;
+    text-shadow: 0 1px 3px rgba(219, 68, 55, 0.5);
+    text-transform: uppercase;
+}
+.add-all-deactive {
+    display: none;
+}
+.remove-all {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #db4437;
+    display: none;
+    float: right;
+    font-size: 14pt;
+    padding: 34px 20px;
+    text-shadow: 0 1px 3px rgba(219, 68, 55, 0.5);
+    text-transform: uppercase;
+}
+.remove-all-active {
+    display: block;
+}
+.b-links {
+    margin: 0 0 0 17px;
+}
+.b-links__head {
+    background: none repeat scroll 0 0 #00b9e6;
+    border-radius: 5px 5px 0 0;
+}
+.b-links-logo {
+    background: url("../img/link_icon3.png") no-repeat scroll right center, url("../img/link_icon2.png") no-repeat scroll center center, url("../img/link_icon1.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 33px;
+    margin: 0 auto;
+    padding: 40px 0 62px;
+    width: 70px;
+}
+.b-list__btn-links {
+    background: url("../img/choose.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin: 10px;
+    vertical-align: top;
+    width: 16px;
+}
+.b-list__btn_active-bl {
+    background: url("../img/check_link.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.b-links-text {
+    color: #fff;
+    font-size: 18pt;
+    padding: 0 20px 20px;
+}
+.nametext-links {
+    font-size: 11pt;
+}
+.abttext-links {
+    font-size: 10pt;
+    margin: 10px 0;
+}
+.add-all-links {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #00b9e6;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 14pt;
+    padding: 34px 20px;
+    text-shadow: 0 1px 3px rgba(0, 185, 230, 0.5);
+    text-transform: uppercase;
+}
+.add-all-links-deactive {
+    display: none;
+}
+.remove-all-links {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #00b9e6;
+    display: none;
+    float: right;
+    font-size: 14pt;
+    padding: 34px 20px;
+    text-shadow: 0 1px 3px rgba(0, 185, 230, 0.5);
+    text-transform: uppercase;
+}
+.remove-all-links-active {
+    display: block;
+}
+.b-slab {
+    margin: 0 0 0 17px;
+}
+.b-slab__head {
+    background: none repeat scroll 0 0 #0f9d58;
+    border-radius: 5px 5px 0 0;
+}
+.b-slab-logo {
+    background: url("../img/slab_icon3.png") no-repeat scroll right center, url("../img/slab_icon2.png") no-repeat scroll center center, url("../img/slab_icon1.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 33px;
+    margin: 0 auto;
+    padding: 40px 0 62px;
+    width: 70px;
+}
+.b-slab__list {
+    height: 330px;
+    overflow: hidden;
+}
+.b-slab__list .jspDrag{
+    background: none repeat scroll 0 0 #0F9D58;
+}
+.b-list__btn-slab {
+    background: url("../img/choose.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin: 10px;
+    vertical-align: top;
+    width: 16px;
+}
+.b-list__btn_active-gr {
+    background: url("../img/check_slab.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.b-slab-text {
+    color: #fff;
+    font-size: 18pt;
+    padding: 0 20px 20px;
+}
+.nametext-slab {
+    font-size: 11pt;
+}
+.abttext-slab {
+    font-size: 10pt;
+    margin: 10px 0;
+}
+.add-all-slab {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #0f9d58;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 14pt;
+    padding: 34px 20px;
+    text-shadow: 0 1px 3px rgba(15, 157, 88, 0.5);
+    text-transform: uppercase;
+}
+.add-all-slab-deactive {
+    display: none;
+}
+.remove-all-slab {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #0f9d58;
+    display: none;
+    float: right;
+    font-size: 14pt;
+    padding: 34px 20px;
+    text-shadow: 0 1px 3px rgba(15, 157, 88, 0.5);
+    text-transform: uppercase;
+}
+.remove-all-slab-active {
+    display: block;
+}
+.b-mail {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 2px 4px rgba(213, 213, 213, 1);
+    margin: 0 104px;
+}
+.b-mail__head {
+    background: none repeat scroll 0 0 #00b9e6;
+    border-radius: 5px 5px 0 0;
+}
+.b-mail-logo {
+    background: url("../img/mail_icon3.png") no-repeat scroll right center, url("../img/mail_icon2.png") no-repeat scroll center center, url("../img/mail_icon1.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    height: 45px;
+    margin: 0 auto;
+    padding: 60px 0 85px;
+    width: 84px;
+}
+.b-wrapform {
+    background: none repeat scroll 0 0 #fff;
+    padding: 35px;
+}
+.b-user-name {
+    display: inline-block;
+    width: 300px;
+}
+.b-user-name__text {
+    color: #d0d0d0;
+    font-size: 11pt;
+    margin: 0;
+}
+.b-user-name__input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #d7d7d7;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.b-email {
+    display: inline-block;
+    margin: 0 0 0 60px;
+    width: 300px;
+}
+.b-email__text {
+    color: #00b9e6;
+    font-size: 11pt;
+    margin: 0;
+}
+.b-email__input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #00b9e6;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.b-email__input::-moz-placeholder, .b-user-name__input::-moz-placeholder {
+    color: #606060;
+    font-size: 16pt;
+}
+.b-message {
+}
+.b-message__text {
+    color: #d0d0d0;
+    font-size: 13pt;
+    margin: 0;
+}
+.b-message__input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #d7d7d7;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    padding: 10px 15px;
+    width: 100%;
+}
+.b-message__input::-moz-placeholder {
+    color: #4c4c4c;
+    font-size: 16pt;
+}
+.b-box-list {
+    height: 136px;
+    overflow-x: hidden;
+}
+.b-box-list .jspDrag{
+    background: none repeat scroll 0 0 #00B9E6;
+}
+.b-list-mail {
+    list-style: outside none none;
+    padding: 0;
+}
+.b-list__atlink {
+    color: #00b9e6;
+    font-size: 16pt;
+    margin: 10px 0;
+}
+.b-list-mail__item {
+    border-bottom: 2px solid #d7d7d7;
+    padding: 10px 0 10px 30px;
+}
+.b-list-mail__text {
+    color: #606060;
+    font-size: 14pt;
+}
+.b-list-mail__btn {
+    background: url("../img/del_icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    float: right;
+    height: 17px;
+    width: 14px;
+    cursor: pointer;
+}
+.b-mail-footer {
+    background: none repeat scroll 0 0 #fff;
+    border-top: 1px solid rgba(220, 220, 220, 0.6);
+}
+.b-mail-footer__btn {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #00b9e6;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 14pt;
+    padding: 18px 25px;
+    text-shadow: 0 1px 3px rgba(0, 185, 230, 0.5);
+    text-transform: uppercase;
+}
+.red {
+     background: url("../img/check_set_icon.png") no-repeat scroll left 15px #fff;
+}
+.blue {
+    background: url("../img/check_set_icon.png") no-repeat scroll left -22px #fff;
+}
+.green {
+      background: url("../img/check_set_icon.png") no-repeat scroll left -58px #fff;
+}
